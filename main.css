@@ -1,27 +1,22 @@
-
-
-
 body {
-    
 	background: rgb(255,162,218);
 	background: linear-gradient(360deg, rgba(255,162,218,1) 0%, rgba(3,3,166,1) 100%);
 }
 
+ html,body {
+        height:100%;
+        margin-left:0;
+        margin-right: 0;
+        padding:0;
+    }
+
 #container {
-	height:100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding:0;
-
-}
-
-#content {
 	
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 33%;
+	width: 33%;
 	position: relative; 
 }
 
