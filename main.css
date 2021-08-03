@@ -18,11 +18,11 @@ body {
 img{
 	width: 20&;
 	height: 20%;
-
 }
 
 img#alien {
 	border-radius: 50%;
+	margin-left: 0.5rem; 
 	transition: 1s;
 }
 
