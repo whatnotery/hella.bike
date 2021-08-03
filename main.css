@@ -16,27 +16,17 @@ body {
 }
 
 img{
-	width: 20&;
-	height: 20%;
+	width: 90%;
+	height: 90%;
 }
 
 img#alien {
 	border-radius: 50%;
-	margin-left: 0.5rem; 
+	margin: 0px auto 0px auto;
 	transition: 1s;
 }
 
 img#alien:hover {
 	transform:translateY(-5em);
 	transform: scale(110%);
-}
-
-footer {
-	text-align: center;
-	padding-top: 10%;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
 }
