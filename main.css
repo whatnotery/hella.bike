@@ -4,19 +4,21 @@ body {
 }
 
  html,body {
-	 display: flex;
+	 display: inline-flex;
 	 align-items: center;
 	 justify-content: center;
 	 height: 100vh;
     }
 
 #container {
+	align-items: center;
+	justify-content: center;
+}
 
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+img{
+	width: 20&;
+	height: 20%;
+
 }
 
 img#alien {
