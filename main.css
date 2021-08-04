@@ -54,11 +54,16 @@ form input, button{
 	transition: 1s;
 }
 
+form input, button {
+	border: rgb(255,162,218) 2px solid;
+}
+
 form input::placeholder {
 	color: rgba(255,162,218,1);
+
 }
 
 form button:hover {
 	transform:translateY(-0.25rem);
-	box-shadow: 0px 2.5px 2.5px rgba(3,3,166,1);
+	box-shadow: 0px 3px 3.5px rgba(3,3,166,1);
 }
