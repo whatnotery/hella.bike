@@ -10,7 +10,8 @@ body {
 	 height: 100vh;
     }
 
-#container {
+#container img {
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
