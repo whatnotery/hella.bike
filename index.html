@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div id="container">
+  <div class="container">
 
     <header>
       <a href="index.html">
@@ -21,9 +21,13 @@
       </a>
     </header>
 
-    <a href="login.html">
-      <img id="alien" src="img.gif">
-    </a>
+    <form class="" action="index.html" method="post">
+      <label for="UN"></label>
+      <input type="text" name="UN" placeholder="Username" required>
+      <label for="PW"></label>
+      <input type="password" name="PW" placeholder="Password" required>
+      <button formaction="login.html" name="button">Login</button>
+    </form>
 
 
   </div>
