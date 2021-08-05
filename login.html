@@ -13,20 +13,18 @@
 </head>
 
 <body>
-  <div id="container">
+  <div class="container">
 
     <header>
-      <a href="index.html">
-        <img src="text.png">
-      </a>
+      <img src="text.png">
     </header>
 
     <form class="" action="index.html" method="post">
       <label for="UN"></label>
-      <input type="text" name="UN" placeholder="Username">
+      <input type="text" name="UN" placeholder="Username" required>
       <label for="PW"></label>
-      <input type="password" name="PW" placeholder="Password">
-      <button type="reset" name="button">Login</button>
+      <input type="password" name="PW" placeholder="Password" required>
+      <button formaction="clear" name="button">Login</button>
     </form>
 
 
