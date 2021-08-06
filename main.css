@@ -20,6 +20,7 @@ html, body {
 
 img#alien {
   border-radius: 50%;
+  border: rgb(255, 162, 218) 5px dotted;
   transition: 1s;
 }
 
